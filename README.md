@@ -28,7 +28,7 @@ This repository provides the **official PyTorch implementation** of the paper:
 
 ### Architecture Overview
 
-![image-20260302163011547](https://lsky.ruotao.tech/i/2026/03/02/69a54a983a9c6.png)
+![image-20260302163011547](Figs\framework.png)
 
 *Fig. The framework of the proposed method.*
 
@@ -196,7 +196,7 @@ Pre-trained model checkpoints will be available soon. They will include:
 
 ### Performance on Individual Datasets
 
-![image-Result on individual datasets](ipic\image-20260310143536086.png)
+![image-Result on individual datasets](Figs\results.png)
 
 ## 📖 Citation
 

@@ -1,0 +1,18 @@
+DATA:
+  DATASET: csiq
+  BATCH_SIZE: 64
+  PATCH_NUM: 8
+  DATA_PATH: "/home/hongyu/data/CSIQ"
+SET:
+  COUNT: 20
+MODEL:
+  TYPE: purevit
+  NAME: vit_small_pre
+  DROP_PATH_RATE: 0.0
+  VIT:
+    PATCH_SIZE: 16
+    EMBED_DIM: 384
+    DEPTH: 12
+    NUM_HEADS: 6
+    MLP_RATIO: 4
+    QKV_BIAS: True
